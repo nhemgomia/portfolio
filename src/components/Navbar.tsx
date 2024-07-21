@@ -43,7 +43,7 @@ const Navbar: FC<NavbarProps> = ({
         { nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
       </div>
 
-      <div className={nav ? "fixed h-full left-0 top-0 w-[60%] bg-[#202121] ease-in-out duration-500 z-10" : "fixed left-[-100%]"}>
+      <div className={nav ? "fixed h-full left-0 top-0 w-[60%] bg-white dark:bg-[#202121] ease-in-out duration-500 z-10" : "fixed left-[-100%]"}>
         <h1 className="text-3xl primary-color m-4">N. Gomia</h1>
         <ul className="p-8 text-2xl">
           <li className="p-2"><a href="#about">About</a></li>

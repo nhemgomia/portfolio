@@ -7,8 +7,7 @@ import UserImageDarkMode from "../assets/user-dark.png";
 
 const Hero = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8 max-w-[1200px] h-[70vh] mx-auto py-8 bg-white dark:bg-black text-black dark:text-white ">
-      
+    <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8 max-w-[1200px] sm:h-[70vh] mx-auto pt-8 pb-10 sm:pb-8 bg-white dark:bg-black text-black dark:text-white ">
       <div className="col-span-1 my-auto mx-auto w-[300px] h-[400px] md:w-[270px] lg:w-[350px]">
         <img src={UserImage} alt="Hero Image" className="block dark:hidden"/>
         <img src={UserImageDarkMode} alt="Hero Image" className="hidden dark:block"/>
@@ -38,9 +37,11 @@ const Hero = () => {
             </span> <br/>
             <TypeAnimation
               sequence={[
-                "Fullstack Developer",
+                "Frontend Developer",
                 1000,
-                "The End",
+                "Backend Developer",
+                1000,
+                "Freelance Developer",
                 1000
               ]}
               wrapper="span"
